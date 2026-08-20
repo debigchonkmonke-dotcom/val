@@ -1,18 +1,24 @@
 <!doctype html>
 <html lang="en-us">
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-YMKR6TMF13"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-YMKR6TMF13');
-</script>
 <head>
+  <!-- Google Tag Manager -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-YMKR6TMF13"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-YMKR6TMF13');
+  </script>
+
   <base href="https://cdn.jsdelivr.net/gh/aukak/fyinx@latest/g/balatro/">
   <meta charset="utf-8">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, minimum-scale=1, maximum-scale=1">
   <title>Balatro</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="faviconV2.png">
+  <link rel="apple-touch-icon" href="faviconV2.png">
 
   <!-- Load custom style sheet -->
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/aukak/fyinx@main/g/balatro/theme/love.css">
@@ -94,7 +100,7 @@
 
         // As a default initial behavior, pop up an alert when webgl context is lost. To make your
         // application robust, you may want to override this behavior before shipping!
-        // See http://www.khronos.org/registry/webgl/specs/latest/1.0/#5.15.2
+        // See [http://www.khronos.org/registry/webgl/specs/latest/1.0/#5.15.2](http://www.khronos.org/registry/webgl/specs/latest/1.0/#5.15.2)
         canvas.addEventListener("webglcontextlost", function(e) {
           alert('WebGL context lost. You will need to reload the page.');
           e.preventDefault();
@@ -137,5 +143,4 @@
       <p>Built with <a href="https://github.com/Davidobot/love.js">love.js</a> <button onclick="goFullScreen();">Go Fullscreen</button><br>Hint: Reload the page if screen is blank</p>
     </footer> -->
 </body>
-
 </html>
